@@ -102,6 +102,7 @@ Please change the parent <Route path="${H}"> to <Route path="${H==="/"?"*":`${H}
     🔹 *Produk*: ${u.productName}%0A
     🔹 *Nama*: ${u.name}%0A
     🔹 *Jumlah*: ${f}%0A
+    🔹 *Ukuran*: ${r}%0A
     🔹 *Harga*: Rp.${(u.price*f).toLocaleString()}%0A
     🔹 *Alamat Pengiriman*: ${u.address}%0A
     🔹 *Metode Pembayaran*: ${u.payment}%0A%0A
